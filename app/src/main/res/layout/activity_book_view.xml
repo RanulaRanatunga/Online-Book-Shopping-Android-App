@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bookView">
+
+    <LinearLayout
+        android:padding="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/bookThumbImage"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Book Name"
+            android:id="@+id/bookName"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Book Category"
+            android:id="@+id/bokCategory"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/bokPrice"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Book Price" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/bokISBN"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Book ISBN" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="0dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/backButton"
+            android:text="Back" />
+
+    </LinearLayout>
+
+</LinearLayout>

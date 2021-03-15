@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "134960517033",
+    "project_id": "online-book-shop-589a2",
+    "storage_bucket": "online-book-shop-589a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134960517033:android:3272ebb78ba0bde4fa3eb8",
+        "android_client_info": {
+          "package_name": "com.databox.onlinebookshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134960517033-9702p3o282h8vlhib3skcshtvm5do3go.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.databox.onlinebookshop",
+            "certificate_hash": "e548f501f539922826d740543821be6285dd1b6d"
+          }
+        },
+        {
+          "client_id": "134960517033-qfcv1be7d4al34kdt88js3teq5chhvvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB80LC_q-5C2uz4jN9JbqbjiCr6eg08St8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134960517033-qfcv1be7d4al34kdt88js3teq5chhvvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
